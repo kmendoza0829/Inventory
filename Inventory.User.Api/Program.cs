@@ -1,4 +1,5 @@
 using Inventory.Business.Core.Business;
+using Inventory.Business.Core.Repositories.Movement;
 using Inventory.Business.Core.Repositories.Product;
 using Inventory.DataAccess.Repository;
 using Inventory.Domain.Data.Models.Implementation;
@@ -18,6 +19,9 @@ builder.Services.AddSingleton<IUserRepository, UserRepository>();
 
 builder.Services.AddSingleton<IProductBusiness, ProductBusiness>();
 builder.Services.AddSingleton<IProductRepository, ProductRepository>();
+
+builder.Services.AddSingleton<IMovementBusiness, MovementBusiness>();
+builder.Services.AddSingleton<IMovementRepository, MovementRepository>();
 
 var app = builder.Build();
 

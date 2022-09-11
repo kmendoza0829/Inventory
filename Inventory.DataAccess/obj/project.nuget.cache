@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m6tL0a1ONcZwdw0n9zjaBrqf9nMchxOwYk64OlIMhE4qNsud7+Har60GhEvh7N7aeLzQjhDKnlSYhQjlT/RnjA==",
+  "dgSpecHash": "Fg8Zo88Bi/MvruroDM14fSPb75hfpO8yEEVGZNBfILYsf5wBxoAkUfdX/4ND46jzRcxr9wizC93IgPt/Sox68g==",
   "success": true,
   "projectFilePath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kmendoza\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\kmendoza\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\kmendoza\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\kmendoza\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",

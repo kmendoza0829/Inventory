@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gUIpV/bNYEVOL1FITkEAzo1HqeWs0MCUxIr2bvlj3iA5V6hybMAJEB30pOOyhKNgHYLu0NknKFF0LMdMUE541w==",
+  "dgSpecHash": "0j7QKxwz0tcp9/rw9aDhSc0dNpp1etxOYX6UE64xmhYtNCZX21N+f34jLmsh+aToVmJ+O/foP4wfffJ/mOgaYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\Inventory.Business.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kmendoza\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

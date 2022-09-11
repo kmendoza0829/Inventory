@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Inventory.Domain.Infrastructure\Inventory.Domain.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
 </Project>

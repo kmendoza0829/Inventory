@@ -33,7 +33,8 @@ namespace Inventory.Domain.Data.Models.Implementation
             Type = createUserRequest.Type;
             Name = createUserRequest.Name;
             Username = createUserRequest.Username;
-            Password = createUserRequest.Password;//TODO:Cifrar contraseña
+            Password = BCrypt.Net.BCrypt.HashPassword(createUserRequest.Password); 
+            //bool verified = BCrypt.Net.BCrypt.Verify("Pa$$w0rd", passwordHash);
             Status = true;
             DateCreation = DateTime.Now;
         }
@@ -43,7 +44,7 @@ namespace Inventory.Domain.Data.Models.Implementation
             UserId = id;
             Identification = createUserRequest.Identificacion;
             Name = createUserRequest.Name;
-            Password = createUserRequest.Password;//TODO:Cifrar contraseña
+            Password = BCrypt.Net.BCrypt.HashPassword(createUserRequest.Password);
         }
 
         public void ValidateCreate()
