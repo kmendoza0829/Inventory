@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.User.Api\\Inventory.User.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\Inventory.Business.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\Inventory.Business.Core.csproj",
+        "projectName": "Inventory.Business.Core",
+        "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\Inventory.Business.Core.csproj",
+        "packagesPath": "C:\\Users\\kmendoza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kmendoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Infrastructure\\Inventory.Domain.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Infrastructure\\Inventory.Domain.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj",
+        "projectName": "Inventory.DataAccess",
+        "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\kmendoza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kmendoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\Inventory.Business.Core.csproj": {
+                "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\Inventory.Business.Core.csproj"
+              },
+              "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Infrastructure\\Inventory.Domain.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Infrastructure\\Inventory.Domain.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Data\\Inventory.Domain.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Data\\Inventory.Domain.Data.csproj",
+        "projectName": "Inventory.Domain.Data",
+        "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Data\\Inventory.Domain.Data.csproj",
+        "packagesPath": "C:\\Users\\kmendoza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kmendoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Infrastructure\\Inventory.Domain.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Infrastructure\\Inventory.Domain.Infrastructure.csproj",
+        "projectName": "Inventory.Domain.Infrastructure",
+        "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Infrastructure\\Inventory.Domain.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kmendoza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kmendoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Data\\Inventory.Domain.Data.csproj": {
+                "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Domain.Data\\Inventory.Domain.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.User.Api\\Inventory.User.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.User.Api\\Inventory.User.Api.csproj",
+        "projectName": "Inventory.User.Api",
+        "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.User.Api\\Inventory.User.Api.csproj",
+        "packagesPath": "C:\\Users\\kmendoza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.User.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kmendoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\Inventory.Business.Core.csproj": {
+                "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.Business.Core\\Inventory.Business.Core.csproj"
+              },
+              "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\kmendoza\\Documents\\Pruebas\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.15.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

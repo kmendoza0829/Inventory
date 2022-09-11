@@ -1,0 +1,15 @@
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\bin\Debug\net6.0\Inventory.Domain.Infrastructure.deps.json
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\bin\Debug\net6.0\Inventory.Domain.Infrastructure.dll
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\bin\Debug\net6.0\Inventory.Domain.Infrastructure.pdb
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\bin\Debug\net6.0\Inventory.Domain.Data.dll
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\bin\Debug\net6.0\Inventory.Domain.Data.pdb
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\Inventory.Domain.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\Inventory.Domain.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\Inventory.Domain.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\Inventory.Domain.Infrastructure.AssemblyInfo.cs
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\Inventory.Domain.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\Inventory.Domain.Infrastructure.csproj.CopyComplete
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\Inventory.Domain.Infrastructure.dll
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\refint\Inventory.Domain.Infrastructure.dll
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\Inventory.Domain.Infrastructure.pdb
+C:\Users\kmendoza\Documents\Pruebas\Inventory\Inventory.Domain.Infrastructure\obj\Debug\net6.0\ref\Inventory.Domain.Infrastructure.dll

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Inventory.Business.Core/1.0.0": {
+        "dependencies": {
+          "Inventory.Domain.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Inventory.Business.Core.dll": {}
+        }
+      },
+      "Inventory.Domain.Data/1.0.0": {
+        "runtime": {
+          "Inventory.Domain.Data.dll": {}
+        }
+      },
+      "Inventory.Domain.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Inventory.Domain.Data": "1.0.0"
+        },
+        "runtime": {
+          "Inventory.Domain.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Inventory.Business.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inventory.Domain.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inventory.Domain.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
